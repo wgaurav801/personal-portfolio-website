@@ -9,6 +9,9 @@
 html{
     scroll-behavior: smooth;
 }
+ul{
+    list-style: none;
+}
 /* body{
    
 } */
@@ -215,6 +218,7 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 
 }
 .work img{
@@ -371,6 +375,40 @@ form .btn2{
     color: hsl(341, 100%, 50%);
 }
 
+
+p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.education{
+    cursor: pointer;
+}
+.education ul{
+    font-size: larger;
+    margin-top: 20px;
+    color:#c4c2c2;
+}
+
+.education ul li {
+    font-size: 110%;
+    margin-block: 7px;
+}
+
+.skills ul{
+    display: flex;
+    gap: 20px;
+}
+.skills ul li{
+    background-color: #c8c7c7;
+    color: #000;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.skills ul li:hover{
+    background-color: #bebdbd;
+}
 
 
 /*-------------------CSS FOR SMALLER SCREEN-------------------*/
